@@ -1,21 +1,19 @@
-export const NetworkId = 'testnet';
+export const NetworkId = 'mainnet';
 
-export const HelloNearContract = {
-  mainnet: 'hello.near-examples.near',
-  testnet: 'hello.near-examples.testnet',
+//add smart contracts to reference here
+
+{/** 
+export const SampleNearContract = {
+  mainnet: 'sample.near-examples.near',
+  testnet: 'sample.near-examples.testnet',
 }
+*/}
 
 export const ComponentMap = {
   mainnet: {
     socialDB: 'social.near',
-    Lido: 'zavodil.near/widget/Lido',
-    HelloNear: 'gagdiez.near/widget/HelloNear',
-    LoveNear: 'gagdiez.near/widget/LoveNear',
+    Player: 'dawnkelly.near/widget/player.create',
+    Monster: 'dawnkelly.near/widget/monster.create',
+    Weapon: 'dawnkelly.near/widget/weapon.create',
   },
-  testnet: {
-    socialDB: 'v1.social08.testnet',
-    Lido: 'influencer.testnet/widget/Lido',
-    HelloNear: 'influencer.testnet/widget/HelloNear',
-    LoveNear: 'influencer.testnet/widget/LoveNear',
-  }
 } 
