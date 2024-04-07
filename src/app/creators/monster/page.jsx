@@ -7,7 +7,7 @@ const Component = dynamic(() => import('@/components/vm-component'), { ssr: fals
 
 const socialComponents = ComponentMap[NetworkId];
 
-export default function PlayerCreatorComponent() {
+export default function MonsterCreatorComponent() {
 
   return (
     <>
@@ -19,8 +19,8 @@ export default function PlayerCreatorComponent() {
           </p>
         </div>
         <div className=''>
-          <h1>Player Creator</h1>
-          <h2>How to use the Player Creator</h2>
+          <h1>Monster Creator</h1>
+          <h2>How to use the Monster Creator</h2>
           <p>1) Fill out the fields of the creator form</p>
           <p>2) Once you are happy with your creation, click 'Save'</p>
           <p>3) Highlight and copy the data object when the modal pops up</p>
@@ -30,7 +30,7 @@ export default function PlayerCreatorComponent() {
         </div>
         <div className='row'>
           <div class="col-6">
-            <Component src={socialComponents.Player} />
+            <Component src={socialComponents.Monster} />
           </div>
         </div>
         <hr />
